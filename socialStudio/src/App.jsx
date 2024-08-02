@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import AddLink from "./Pages/AddLink";
 
 const App = () => {
   return (
-    <div className='container text-black text-lg font-sans font-medium'>App</div>
-  )
-}
+    <div className="container">
+      <AddLink />
+    </div>
+  );
+};
 
 export default App;
