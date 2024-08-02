@@ -21,7 +21,9 @@ const AddLink = () => {
     event.preventDefault();
     TaskList.push(taskData);
     localStorage.setItem("Data", JSON.stringify(TaskList));
+    setTaskData(" ");
   };
+
   return (
     <div className="container">
       <div className="container text-black text-lg font-sans font-medium">
